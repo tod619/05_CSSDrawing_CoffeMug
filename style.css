@@ -24,3 +24,15 @@ body {
                 0px 210px 0 -55px #3c2415,
                 20px 250px 0 -65px #3c2415;
 }
+
+.coffee-mug::before {
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 60px;
+    background-color: #e49934;
+    top: -85px;
+    right: -75px;
+    border-radius: 5px;
+    transform: rotate(45deg);
+}
